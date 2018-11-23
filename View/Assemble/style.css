@@ -1,0 +1,138 @@
+.navbar {
+    background: #41658A;
+}
+
+.navbar-header {
+    min-height: 90px
+}
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand > .navbar-brand-name {
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #79B473 !important;
+    font-size: 30px;
+}
+
+.navbar-brand > .navbar-brand-title {
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding-top: 5px;
+    color: #E9C612 !important;
+    font-size: 15px;
+}
+
+.navbar-collapse > ul{
+    margin-top:45px; 
+}
+
+.tab-icon {
+    margin-right:20px;
+    width: 80px;
+}
+
+.tab-icon > a  {
+    padding-top: 3px !important;
+    color: #79B473 !important;
+}
+
+.tab-icon > div {
+    background: #FFFFFF; 
+    height: 12px;
+}
+
+.tab-icon:hover div{
+    background: #E9C612;
+}
+
+.tab-icon:hover a {
+    color: #E9C612 !important;
+}
+
+/* ------ Footer ------ */
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    border-top: solid 4px #41658A
+}
+
+.social-media > a > svg{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+/* ------ Home -----*/
+.home-content {
+    min-height: 300px;
+    padding: 40px;
+}
+
+.picture-box > img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.intro-box {
+}
+
+.intro-box > h1 {
+    color: #E9C612;
+}
+
+.intro-box > p {
+    color: #41658A;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.contact-box {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact-box > h4 {
+    color: #79B473;
+}
+
+.contact-box > a > svg {
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+/*------ Contact ------*/
+.contact-content {
+    padding: 40px;
+}
+
+.contact-content > h1 {
+    color: #E9C612;
+}
+
+.contact-detail {
+    border-top: solid 4px #41658A;
+}
+
+/*------ CV ------*/
+.cv-content {
+    padding: 40px;
+}
+
+.cv-content > .col-sm-3 > h1 {
+    color: #E9C612;
+}
+
+.cv-content > .col-sm-9 > h1 {
+    color: #E9C612;
+}
+
+.cv-content-box {
+    border-top: solid 4px #41658A;
+}
+
+.exp-desc-box {
+    border-bottom: solid 1px #41658A;
+}

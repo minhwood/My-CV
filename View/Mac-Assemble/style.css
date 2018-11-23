@@ -1,0 +1,170 @@
+.navbar {
+    background: #DFE0E0;
+}
+
+.navbar-header {
+    min-height: 90px
+}
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand > .navbar-brand-name {
+    font-weight: bold;
+    color: #3C4356 !important;
+    font-size: 30px;
+}
+
+.navbar-brand > .navbar-brand-title {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 5px;
+    color: #C58573 !important;
+    font-size: 15px;
+}
+
+.navbar-collapse > ul{
+    margin-top:45px; 
+}
+
+.tab-icon {
+    margin-right:20px;
+    width: 80px;
+}
+
+.tab-icon > a  {
+    padding-top: 3px !important;
+    color: #C58573 !important;
+}
+
+.tab-icon > div {
+    background: #FFFFFF; 
+    height: 12px;
+}
+
+.tab-icon:hover div{
+    background: #3C4356;
+}
+
+.tab-icon:hover a {
+    color: #3C4356 !important;
+}
+
+/* ------ Footer ------ */
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    border-top: solid 4px #DFE0E0
+}
+
+.social-media > a > svg{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+/* ------ Home -----*/
+.home-content {
+    min-height: 300px;
+    padding: 40px;
+}
+
+.picture-box > img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.intro-box {
+}
+
+.intro-box > h1 {
+    color: #293545;
+}
+
+.intro-box > p {
+    color: #293545;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.contact-box {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact-box > h4 {
+    color: #C58573;
+}
+
+.contact-box > a > svg {
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+/*------ Contact ------*/
+.contact-content {
+    padding: 40px;
+}
+
+.contact-content > h1 {
+    color: #C58573;
+}
+
+.contact-detail {
+    border-top: solid 4px #DFE0E0;
+}
+
+/*------ CV ------*/
+.cv-content {
+    padding: 40px;
+}
+
+.cv-content > .col-sm-3 > h1 {
+    color: #C58573;
+}
+
+.cv-content > .col-sm-9 > h1 {
+    color: #C58573;
+}
+
+.cv-content-box {
+    border-top: solid 4px #DFE0E0;
+}
+
+.exp-desc-box {
+    border-bottom: solid 1px #DFE0E0;
+}
+
+.edu-desc-box {
+    border-bottom: solid 1px #DFE0E0;
+}
+
+/*------ Projects ------*/
+.projects-content {
+    padding: 40px;
+}
+
+.projects-content > h1 {
+    color: #C58573;
+}
+
+.projects-contents-main {
+    border-top: solid 4px #DFE0E0;
+}
+
+.project-box {
+    border-bottom: solid 1px #DFE0E0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin:0px;
+}
+
+.project-box:hover{
+    background-color: #DFE0E0;
+    opacity:1.5;
+}
+
+.project-title-img > img {
+    height: 50px;
+}
